@@ -713,5 +713,5 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-client.login(db.token);
+client.login(process.env.TOKEN);
 
