@@ -1,3 +1,15 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("STEAL NATION BOT ONLINE");
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor web iniciado en puerto ${PORT}`);
+});
+
 const {
   Client,
   GatewayIntentBits,
@@ -9,15 +21,9 @@ const {
   TextInputStyle,
   ButtonBuilder,
   ButtonStyle,
-  EmbedBuilder,
-  ChannelType,
-  PermissionFlagsBits,
-  REST,
-  Routes,
-  SlashCommandBuilder,
-  AttachmentBuilder
-} = require('discord.js');
-const fs = require('fs');
+  EmbedBuilder
+} = require("discord.js")
+  fs = require('fs');
 const path = require('path');
 
 const client = new Client({
