@@ -21,8 +21,14 @@ const {
   TextInputStyle,
   ButtonBuilder,
   ButtonStyle,
-  EmbedBuilder
-} = require("discord.js")
+  EmbedBuilder,
+  ChannelType,
+  PermissionFlagsBits,
+  AttachmentBuilder,
+  REST,
+  Routes,
+  SlashCommandBuilder
+} = require('discord.js');
   fs = require('fs');
 const path = require('path');
 
