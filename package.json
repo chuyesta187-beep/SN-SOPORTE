@@ -1,16 +1,16 @@
 {
   "name": "sn-soporte",
   "version": "1.0.0",
-  "description": "Bot oficial de STEAL NATION",
+  "description": "Sistema de Tickets STEAL NATION",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
     "discord",
+    "bot",
     "tickets",
-    "steal-nation",
-    "support"
+    "steal-nation"
   ],
   "author": "STEAL NATION",
   "license": "MIT",
